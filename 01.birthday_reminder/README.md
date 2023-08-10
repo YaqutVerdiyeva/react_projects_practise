@@ -1,2 +1,2 @@
-# Birtyday_reminder
+# Birthday_reminder
 
