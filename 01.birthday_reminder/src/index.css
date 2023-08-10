@@ -1,0 +1,14 @@
+body {
+  background-color: #fae8ff;
+  display: flex;
+  justify-content: center;
+}
+.App {
+  margin: 80px;
+  width: 600px;
+  padding: 3px 20px;
+  background-color: white;
+}
+h1{
+  margin-left: 20px;
+}

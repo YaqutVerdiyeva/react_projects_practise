@@ -1,0 +1,23 @@
+.listItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+
+}
+.listItem img {
+  margin: 10px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.text h3 {
+  margin: 0;
+  font-size: 25px;
+}
+.text h4 {
+  margin: 0;
+  color: grey;
+  font-size: 20px;
+  font-weight: 100;
+}
