@@ -1,0 +1,97 @@
+body {
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  color: #645cff;
+}
+.App h1::after {
+  position: absolute;
+  top: 15%;
+  left: 44%;
+  content: "";
+  height: 4px;
+  background-color: #645cff;
+  width: 12%;
+}
+.reviews {
+  background-color: white;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 2px 2px 10px rgb(228, 222, 222);
+}
+.reviews:hover {
+  box-shadow: 2px 2px 15px rgb(197, 192, 192);
+  transition: 0.4s;
+}
+.image {
+  position: relative;
+  background-color: #645cff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.icon {
+  color: #fff;
+  background-color: #645cff;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.photo {
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 200px;
+  height: 200px;
+}
+.reviews h2 {
+  font-size: 45px;
+  font-weight: 100;
+  text-transform: capitalize;
+  margin: 0;
+}
+.reviews h3 {
+  color: #645cff;
+  margin: 2px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.reviews p {
+  text-align: center;
+  width: 500px;
+  color: grey;
+}
+.AiOutlineLeft,
+.AiOutlineRight {
+  color: #645cff;
+  padding: 5px;
+  font-weight: bold;
+}
+.btn-suprize {
+  background-color: #bdbbdf;
+  border: 1px solid #bdbbdf;
+  color: #645cff;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.btn-suprize:hover {
+  background-color: #645cff;
+  border: 1px solid #645cff;
+  color: #fff;
+  transition: 0.5s;
+}
