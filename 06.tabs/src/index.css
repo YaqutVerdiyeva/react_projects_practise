@@ -1,0 +1,84 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.App .tabs {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.App .tabs .btn {
+  background-color: transparent;
+  border: transparent;
+  margin: 10px;
+  border-left: 2px solid white;
+  width: 50%;
+}
+.App .tabs .btn:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  border-left: 2px solid #14c6d3;
+  color: #14c6d3;
+}
+.App .tabs .active-btn {
+  border-left: 2px solid #14c6d3;
+  color: #14c6d3;
+}
+.App .texts {
+  width: 70%;
+}
+.App .texts h1 {
+  font-weight: 100;
+  font-size: 35px;
+  margin: 0 0 10px 0;
+}
+.App .texts .comp {
+  font-weight: 100;
+  font-size: 17px;
+  padding: 5px 10px;
+  background-color: #cbd5e1;
+  border-radius: 5px;
+  color: rgb(83, 80, 80);
+}
+.App .texts .dates {
+  color: #64748b;
+}
+.App .texts .duties {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #525457;
+  font-weight: 100;
+  font-size: 20px;
+}
+.App .texts  .more-text .icon {
+  color: #14c6d3;
+  font-size: 65px;
+  margin-right: 25px;
+}
+.App .texts  .less-text .icon {
+  color: #14c6d3;
+  font-size: 20px;
+  margin-right: 25px;
+}
+.loadmore {
+  width: 50%;
+  background-color: #14c6d3;
+  color: #fff;
+  height: 40px;
+  border: 2px solid #14c6d3;
+  border-radius: 5px;
+}
+.loadmore:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #fff;
+  color: #14c6d3;
+}
