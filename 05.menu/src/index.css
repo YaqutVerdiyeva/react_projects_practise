@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App h1 {
+  margin-top: 55px;
+  font-weight: 100;
+  font-size: 45px;
+  letter-spacing: 4px;
+}
+.App h1::after {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  content: "";
+  height: 4px;
+  background-color: #f59e0b;
+  width: 10%;
+}
+.categories .btn {
+  background-color: #f59e0b;
+  border: 2px solid #f59e0b;
+  margin: 10px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.categories .btn:hover {
+  background-color: #b45309;
+  border: 2px solid #b45309;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.menu .menuItem {
+  width: 350px;
+  margin: 15px;
+}
+.menu .menuItem img {
+  width: 350px;
+  height: 230px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.menu .menuItem .first-text {
+  padding: 15px 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu .menuItem .first-text .title {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.menu .menuItem .first-text .price {
+  background-color: #f59e0b;
+  padding: 2px 8px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 100;
+}
+.menu .menuItem .text {
+  color: grey;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 0 15px 15px 15px;
+  margin: 0;
+  line-height: 30px;
+}
