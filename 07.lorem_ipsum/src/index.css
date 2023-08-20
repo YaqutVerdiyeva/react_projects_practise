@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.App h1 {
+  font-weight: 100;
+}
+.App .input-btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.App .input-btn h3 {
+  color: rgb(87, 82, 82);
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.App .input-btn .input {
+  background-color: #cbd5e1;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  width: 60px;
+}
+.App .input-btn .btn {
+  background-color: #14c290;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.App .input-btn .btn:hover {
+  transition: 0.5s;
+  background-color: #047857;
+}
+.lorem-text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.text{
+  width: 50%;
+  color: rgb(95, 90, 90);
+}
