@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+}
+.App {
+  position: relative;
+}
+
+/* Home Page */
+.home-page {
+  height: 95vh;
+  background-color: #f1f5f9;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.home-page .menu {
+  font-size: 30px;
+  margin: 30px;
+  color: #4ba9ec;
+}
+.home-page .menu:hover {
+  cursor: pointer;
+}
+.home-page .btn .show-modal-btn {
+  background-color: #4ba9ec;
+  color: #fff;
+  border: 1px solid #4ba9ec;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+.home-page .btn .show-modal-btn:hover {
+  background-color: #0f4972;
+  border: 1px solid #0f4972;
+  transition: 0.5s;
+}
+/* Modal Page */
+
+.modal {
+  display: none !important;
+}
+
+.show-modal {
+  display: block !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.show-modal .context {
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+  width: 45%;
+  height: 200px;
+}
+.modal h1 {
+  margin-top: 75px;
+  text-align: center;
+  font-weight: 100;
+}
+.modal-page .modal .close-modal {
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  color: #a12b35;
+  font-size: 35px;
+}
+
+/* Sidebar Page */
+
+.sidebar {
+  display: none !important;
+}
+.show-sidebar {
+  display: block !important;
+  position: fixed;
+  top: 0;
+  height: 95vh;
+  width: 35%;
+  background-color: #fff;
+}
+.show-sidebar .img-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.show-sidebar .img-menu .fatimes {
+  color: #a12b35;
+  font-size: 35px;
+  margin-left: 180px;
+}
+.show-sidebar .pages {
+  padding: 0;
+}
+.show-sidebar .pages .page-link {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.show-sidebar .pages .page-link:hover {
+  background-color: #f1f5f9;
+  transition: 0.5s;
+}
+.show-sidebar .pages .page-link .page-icons {
+  font-size: 30px;
+  color: #687485;
+  padding: 7px;
+}
+.show-sidebar .pages .page-link a {
+  text-decoration: none;
+  color: #3e4650;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.show-sidebar .icons {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.show-sidebar .icons .social-icon {
+  list-style: none;
+}
+.show-sidebar .icons .social-icon a {
+  font-size: 27px;
+  color: #4ba9ec;
+  padding: 7px;
+}
+.show-sidebar .icons .social-icon a:hover {
+  color: #0f4972;
+  transition: 0.5s;
+}
